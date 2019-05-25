@@ -16,7 +16,6 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.validation.Valid;
 import java.net.URISyntaxException;
 
-
 @RestController
 public class UserController {
 
@@ -108,7 +107,5 @@ public class UserController {
         model.setViewName("errors/access_denied");
         return model;
     }
-
-
 }
 

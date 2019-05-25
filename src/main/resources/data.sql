@@ -1,12 +1,14 @@
 insert into user_account
-values(1,1,'bayar@interia.pl','Jan','Kowalski', '$2a$10$ON75YMyEUMAF.i0bIbDkiOoS7gY0WofsQBRwEswGjBXZlj.IMMsXK');
+values(1,1,'admin@wp.pl','Jan','Kowalski', '$2a$10$ON75YMyEUMAF.i0bIbDkiOoS7gY0WofsQBRwEswGjBXZlj.IMMsXK');
 insert into user_account
-values(2,1,'janq@interia.pl','Jan','Kowalski', '$2a$10$ON75YMyEUMAF.i0bIbDkiOoS7gY0WofsQBRwEswGjBXZlj.IMMsXK');
+values(2,1,'Tkow@interia.pl','Tomasz','Kowalski', '$2a$10$ON75YMyEUMAF.i0bIbDkiOoS7gY0WofsQBRwEswGjBXZlj.IMMsXK');
 insert into user_account
-values(3,1,'janq13@interia.pl','Jan','Kowalski', '$2a$10$ON75YMyEUMAF.i0bIbDkiOoS7gY0WofsQBRwEswGjBXZlj.IMMsXK');
+values(3,1,'Moca@interia.pl','Jan','Mocarny', '$2a$10$ON75YMyEUMAF.i0bIbDkiOoS7gY0WofsQBRwEswGjBXZlj.IMMsXK');
 INSERT INTO roles VALUES (1,'ADMIN');
 INSERT INTO roles VALUES (2,'USER');
-INSERT INTO USER_ROLE  VALUES (1,2);
+INSERT INTO USER_ROLE  VALUES (1,1);
+INSERT INTO USER_ROLE  VALUES (2,2);
+INSERT INTO USER_ROLE  VALUES (3,2);
 insert into items
 values(1,'normal plank','plank',20);
 insert into items
