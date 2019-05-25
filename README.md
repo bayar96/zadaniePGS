@@ -1,0 +1,2 @@
+# zadaniePGS
+wypożyczalnia sprzętu
